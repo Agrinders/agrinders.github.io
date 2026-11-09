@@ -1,8 +1,26 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.agrinders.twa",
-        "sha256_cert_fingerprints": ["8A:8E:D4:C8:E8:28:00:88:51:53:0F:38:D6:4A:D6:20:B1:AF:D2:6E:35:50:DE:80:9D:3F:7C:5D:5F:75:B1:42"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.agrinders.twa",
+      "sha256_cert_fingerprints": [
+        "8A:8E:D4:C8:E8:28:00:88:51:53:0F:38:D6:4A:D6:20:B1:AF:D2:6E:35:50:DE:80:9D:3F:7C:5D:5F:75:B1:42"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.agrinders.matkoll",
+      "sha256_cert_fingerprints": [
+        "A6:62:2D:88:F8:43:1B:8C:2B:79:33:35:99:62:22:D3:16:2E:3B:23:2F:8A:6B:6E:26:48:87:73:CC:C1:1D:A2"
+      ]
+    }
+  }
+]
